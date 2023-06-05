@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="valer" version="3.22.16-Białowieża" saveDateTime="2023-06-05T01:15:56" projectname="" saveUserFull="Valeria Prado">
+<qgis saveUser="valer" version="3.22.16-Białowieża" saveDateTime="2023-06-05T01:42:17" projectname="" saveUserFull="Valeria Prado">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -47,7 +47,7 @@
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" name="Basemap" providerKey="gdal" id="Basemap_4d627549_5c65_46f5_9997_92fe275afeb6" checked="Qt::Checked" expanded="1" legend_split_behavior="0" patch_size="-1,-1" source="./basemap.gpkg">
+    <layer-tree-layer legend_exp="" name="Basemap" providerKey="gdal" id="Basemap_b9fec853_df9e_49be_9694_9211510f7c8b" checked="Qt::Checked" expanded="1" legend_split_behavior="0" patch_size="-1,-1" source="./basemap.gpkg">
       <customproperties>
         <Option/>
       </customproperties>
@@ -58,14 +58,14 @@
       <item>TelefonosPublicos_fd36e660_7464_480a_b56e_894dbe068695</item>
       <item>Bancas_5bf570a1_c3a2_4557_a9f7_79ad3b041609</item>
       <item>OSM_Standard_6ed5c080_2585_47a0_acf0_2dceffabe8ae</item>
-      <item>Basemap_4d627549_5c65_46f5_9997_92fe275afeb6</item>
+      <item>Basemap_b9fec853_df9e_49be_9694_9211510f7c8b</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings enabled="0" self-snapping="0" scaleDependencyMode="0" intersection-snapping="0" tolerance="12" mode="2" type="1" minScale="0" unit="1" maxScale="0">
     <individual-layer-settings>
+      <layer-setting enabled="0" units="1" tolerance="12" id="Senalizacion_20e8ba96_aa8f_4aa5_a19f_0d8f8a687181" type="1" minScale="0" maxScale="0"/>
       <layer-setting enabled="0" units="1" tolerance="12" id="Luminarias_6ae9cc8a_a7d6_44de_8231_b6b241edb913" type="1" minScale="0" maxScale="0"/>
       <layer-setting enabled="0" units="1" tolerance="12" id="TelefonosPublicos_fd36e660_7464_480a_b56e_894dbe068695" type="1" minScale="0" maxScale="0"/>
-      <layer-setting enabled="0" units="1" tolerance="12" id="Senalizacion_20e8ba96_aa8f_4aa5_a19f_0d8f8a687181" type="1" minScale="0" maxScale="0"/>
       <layer-setting enabled="0" units="1" tolerance="12" id="Bancas_5bf570a1_c3a2_4557_a9f7_79ad3b041609" type="1" minScale="0" maxScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
@@ -125,7 +125,7 @@
     </legendlayer>
     <legendlayer name="Basemap" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="Basemap_4d627549_5c65_46f5_9997_92fe275afeb6" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Basemap_b9fec853_df9e_49be_9694_9211510f7c8b" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -670,7 +670,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>-9357814.20689399912953377</xmax>
         <ymax>1096213.79910869989544153</ymax>
       </wgs84extent>
-      <id>Basemap_4d627549_5c65_46f5_9997_92fe275afeb6</id>
+      <id>Basemap_b9fec853_df9e_49be_9694_9211510f7c8b</id>
       <datasource>./basemap.gpkg</datasource>
       <keywordList>
         <value></value>
@@ -2241,7 +2241,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="TelefonosPublicos_fd36e660_7464_480a_b56e_894dbe068695"/>
     <layer id="Bancas_5bf570a1_c3a2_4557_a9f7_79ad3b041609"/>
     <layer id="OSM_Standard_6ed5c080_2585_47a0_acf0_2dceffabe8ae"/>
-    <layer id="Basemap_4d627549_5c65_46f5_9997_92fe275afeb6"/>
+    <layer id="Basemap_b9fec853_df9e_49be_9694_9211510f7c8b"/>
   </layerorder>
   <properties>
     <DefaultStyles>
@@ -2302,7 +2302,7 @@ def my_form_open(dialog, layer, feature):
       <attachmentDirs type="QStringList">
         <value>DCIM</value>
       </attachmentDirs>
-      <dirsToCopy type="QString">{".git": false, ".git\\hooks": false, ".git\\info": false, ".git\\objects": false, ".git\\objects\\info": false, ".git\\objects\\pack": false, ".git\\refs": false, ".git\\refs\\heads": false, ".git\\refs\\tags": false, "QField_Proyecto": false, "QField_Proyecto\\.git": false, "QField_Proyecto\\.git\\hooks": false, "QField_Proyecto\\.git\\info": false, "QField_Proyecto\\.git\\objects": false, "QField_Proyecto\\.git\\objects\\info": false, "QField_Proyecto\\.git\\objects\\pack": false, "QField_Proyecto\\.git\\refs": false, "QField_Proyecto\\.git\\refs\\heads": false, "QField_Proyecto\\.git\\refs\\tags": false, "QField_Proyecto\\QField_Proyecto": false, "QField_Proyecto\\QField_Proyecto\\.git": false, "QField_Proyecto\\QField_Proyecto\\.git\\hooks": false, "QField_Proyecto\\QField_Proyecto\\.git\\info": false, "QField_Proyecto\\QField_Proyecto\\.git\\objects": false, "QField_Proyecto\\QField_Proyecto\\.git\\objects\\info": false, "QField_Proyecto\\QField_Proyecto\\.git\\objects\\pack": false, "QField_Proyecto\\QField_Proyecto\\.git\\refs": false, "QField_Proyecto\\QField_Proyecto\\.git\\refs\\heads": false, "QField_Proyecto\\QField_Proyecto\\.git\\refs\\tags": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\hooks": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\pack": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\heads": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\tags": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\hooks": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\pack": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\heads": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\tags": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\hooks": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\pack": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\heads": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\tags": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\hooks": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\pack": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\heads": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\tags": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\hooks": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\info": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\objects\\pack": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\heads": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\refs\\tags": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git": false, "QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\QField_Proyecto\\.git\\hooks": false}</dirsToCopy>
+      <dirsToCopy type="QString">{".git": false, ".git\\hooks": false, ".git\\info": false, ".git\\logs": false, ".git\\logs\\refs": false, ".git\\logs\\refs\\heads": false, ".git\\logs\\refs\\remotes": false, ".git\\logs\\refs\\remotes\\origin": false, ".git\\objects": false, ".git\\objects\\13": false, ".git\\objects\\29": false, ".git\\objects\\2d": false, ".git\\objects\\3a": false, ".git\\objects\\49": false, ".git\\objects\\53": false, ".git\\objects\\5b": false, ".git\\objects\\8e": false, ".git\\objects\\9f": false, ".git\\objects\\a0": false, ".git\\objects\\b3": false, ".git\\objects\\f4": false, ".git\\objects\\ff": false, ".git\\objects\\info": false, ".git\\objects\\pack": false, ".git\\refs": false, ".git\\refs\\heads": false, ".git\\refs\\remotes": false, ".git\\refs\\remotes\\origin": false, ".git\\refs\\tags": false, "QField_Proyecto": false}</dirsToCopy>
       <exportDirectoryProject type="QString">C:/Users/valer/OneDrive/Escritorio/TEC/I Semestre 2023/Sistemas de Informacion geografica/SIG_Proyecto/QField_Proyecto</exportDirectoryProject>
     </QFieldSync>
     <RenderMapTile type="bool">false</RenderMapTile>
@@ -2373,7 +2373,7 @@ def my_form_open(dialog, layer, feature):
       <baseMapTileSize type="int">1024</baseMapTileSize>
       <baseMapType type="QString">singleLayer</baseMapType>
       <createBaseMap type="int">1</createBaseMap>
-      <digitizingLogsLayer type="QString">TelefonosPublicos_fd36e660_7464_480a_b56e_894dbe068695</digitizingLogsLayer>
+      <digitizingLogsLayer type="QString"></digitizingLogsLayer>
       <layerActionPreference type="QString">online</layerActionPreference>
       <maximumImageWidthHeight type="int">0</maximumImageWidthHeight>
       <offlineCopyOnlyAoi type="int">0</offlineCopyOnlyAoi>
@@ -2414,7 +2414,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales/>
-    <DefaultViewExtent ymin="1096051.64601213904097676" ymax="1096226.80144447460770607" xmax="-9368726.25462472625076771" xmin="-9369001.13045044057071209">
+    <DefaultViewExtent ymin="1096038.64367636479437351" ymax="1096213.79910869942978024" xmax="-9368581.48006927222013474" xmin="-9369078.20689400658011436">
       <spatialrefsys>
         <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
         <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
